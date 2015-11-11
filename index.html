@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Adil Siddiqui - Interaction designer by day | Illustrator by night | Dreaming all the time</title>
+    <title>Adil Siddiqui - Product designer | Illustrator | Dreamer</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -34,9 +34,9 @@
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-            <div class="navbar-header">
+<!--             <div class="navbar-header">
                 <a class="navbar-brand page-scroll" href="#page-top"><i class="fa fa-angle-double-up"></i></a>
-            </div>
+            </div> -->
         </div>
     </nav>
 
@@ -46,31 +46,7 @@
                 <div class="avatar"><img src="img/avatar.jpg" alt=""></div>
                 <h2>ADIL SIDDIQUI</h2>
                 <p>
-                    Product designer by day - Illustrator by night - Dreaming all the time
-                </p>
-                <p class="hide">
-                    Too lazy to make a portfolio, so Dribbble :D
-                </p>
-                <p class="hide">
-                    Again too lazy, so Tumblr for other design stuff :D
-                </p>
-                <p class="hide">
-                    Oh yes! I 'try' to write sometime, so Medium ;-)
-                </p>
-                <p class="hide">
-                    Because many said I have to, so Twitter :-)
-                </p>
-                <p class="hide">
-                    No I don't post food pictures I like to eat them asap, so Instagram :p
-                </p>
-                <p class="hide">
-                    Because everyone has one? so Facebook :D
-                </p>
-                <p class="hide">
-                    I'll do anything for you if you buy from my store at Society6 o_O
-                </p>
-                <p class="hide">
-                    Want to talk about food or design with me? Email  me >_o
+                    Product designer | Illustrator | Dreamer
                 </p>
                 <div class="social">
                    <ul class="nav navbar-nav social">
@@ -86,24 +62,24 @@
                 </div>
                 <div class="clearfix"></div>
             </div>
-            <div class="blue btn button raised">
-                  <div class="center main-btn" fit><a href="#about" class="page-scroll"  style="color: #fff; text-decoration: none;">Sample Work<paper-ripple fit></paper-ripple></a></div>
+            <div class="blue btn button raised" style="width: 44px;">
+                  <div class="center main-btn" fit><a href="#about" class="page-scroll"  style="color: #fff; text-decoration: none;">Hi <paper-ripple fit></paper-ripple></a></div>
             </div>
         </div>
 
     </header>
 
-    <section class="bg-primary" id="about">
+<!--     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
                 <h2 class="section-heading">Too lazy to make a portfolio, so some latest Dribbble Shots ^_^</h2>
             </div>
             <br>
             <div class="row">
-                <div class="row grid-list-wrapper no-gutter" id="shotsByPlayerId"></div>
-            </div>
+                <div class="row grid-list-wrapper no-gutter" id="shotsByPlayerId"></div> -->
+            <!-- </div> -->
             <!-- <div><a href="javascript:void(0)" class="btn btn-default btn-xl">See on Dribbble</a><paper-ripple fit></paper-ripple></div> -->
-        </div>
+<!--         </div>
     </section>
     <section style="text-align: center;"> 
         <div class="">
@@ -115,9 +91,9 @@
                   <div class="center main-btn" fit><a href="javascript:void(0)" style="color: #fff; text-decoration: none;"><i class="fa fa-tumblr"></i> &nbsp;MORE ON TUMBLR<paper-ripple fit></paper-ripple></a></div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-
+<!-- 
     <section id="contact" class="bg-primary">
         <div class="header-content">
             <div class="header-content-inner">
@@ -136,29 +112,29 @@
                 <p class="credits">&copy; All Rights Reserved 2015</p>
             </div>
         </div>
-    </section>
+    </section> -->
 
 <!-- jQuery from CDN -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="js/jribbble.js"></script>
 <script src="js/bootstrap.js"></script>
-<script>
-    var callback = function (playerShots) {
-        var html = '';
-        // $('h2 b').text(playerShots.shots[0].player.name);
-        $.each(playerShots.shots, function (i, shot) {
-            html += '<div class="col-sm-6 col-md-3 col-lg-3"> <div class="grid-list"> ';          
-            html += '<a target="_blank" href="' + shot.url + '">';
-            html += '<img class="img-responsive" src="' + shot.image_url + '" ';
-            html += 'alt="' + shot.title + '"><\/a>';
-            // html += '<div class="overlay"><a target="_blank"  href="' + shot.url + '">';  
-            // html += '<h2>' + shot.title + '<\/h2>';  
-            html += '<\/a> <\/div><\/div><\/div>';  
-        });
-        $('#shotsByPlayerId').html(html);
-    };
+// <script>
+//     var callback = function (playerShots) {
+//         var html = '';
+//         // $('h2 b').text(playerShots.shots[0].player.name);
+//         $.each(playerShots.shots, function (i, shot) {
+//             html += '<div class="col-sm-6 col-md-3 col-lg-3"> <div class="grid-list"> ';          
+//             html += '<a target="_blank" href="' + shot.url + '">';
+//             html += '<img class="img-responsive" src="' + shot.image_url + '" ';
+//             html += 'alt="' + shot.title + '"><\/a>';
+//             // html += '<div class="overlay"><a target="_blank"  href="' + shot.url + '">';  
+//             // html += '<h2>' + shot.title + '<\/h2>';  
+//             html += '<\/a> <\/div><\/div><\/div>';  
+//         });
+//         $('#shotsByPlayerId').html(html);
+//     };
     
-    $.jribbble.getShotsByPlayerId('adilsiddiqui', callback, {page: 1, per_page: 16});
+//     $.jribbble.getShotsByPlayerId('adilsiddiqui', callback, {page: 1, per_page: 16});
     
 </script>
 
