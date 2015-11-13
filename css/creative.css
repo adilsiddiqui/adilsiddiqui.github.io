@@ -260,15 +260,19 @@ header .header-content .header-content-inner p {
         margin-left: auto;
         max-width: 80%;
         margin-bottom: 0px;
-        font-size: 1.1em;
+        font-size: .8em;
+    }
+
+    .navbar-nav>li>a{
+        width: 32px;
     }
 
     .header-content-inner h2{
-        font-size: 1.8em;
+        font-size: 1.4em;
     }
 
     .avatar img{
-        width: 240px;
+        width: 210px;
     }
 }
 
