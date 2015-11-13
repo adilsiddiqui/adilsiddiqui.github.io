@@ -49,7 +49,7 @@ h6 {
 
 .header-content-inner h2{
     font-weight: 700;
-    font-size: 28px;
+    font-size: 2em;
 }
 
 .header-content-inner h2 span{
@@ -219,7 +219,7 @@ header .header-content .header-content-inner hr {
 
 header .header-content .header-content-inner p {
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 1.4em;
     font-weight: 300;
     color: #000000;
 }
@@ -248,7 +248,27 @@ header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
         max-width: 80%;
-        font-size: 18px;
+        font-size: 1.4em;
+    }
+}
+
+@media(max-width:768px) {
+
+
+    header .header-content .header-content-inner p {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 80%;
+        margin-bottom: 0px;
+        font-size: 1.1em;
+    }
+
+    .header-content-inner h2{
+        font-size: 1.8em;
+    }
+
+    .avatar img{
+        width: 240px;
     }
 }
 
